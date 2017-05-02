@@ -50,5 +50,3 @@ RUN cp -r /tmp/htslib-1.3.2/htslib ./ && \
 
 WORKDIR /
 RUN rm -Rf /tmp/htslib*
-
-ENTRYPOINT ["python", "/opt/platypus/Platypus_0.8.1/Platypus.py"]
